@@ -1,0 +1,391 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\laptrinhweb\\social_network_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\models\\modelbase\\account_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\models\\modelbase\\account_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_2.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\models\\socialnetworkcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_2.csproj|solutionrelative:social_network_2\\models\\socialnetworkcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\social_network_2.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\social_network_2.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_2.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_2.csproj|solutionrelative:social_network_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_2.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_2.csproj|solutionrelative:social_network_2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\models\\postshare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\models\\postshare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\models\\postmedium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\models\\postmedium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\models\\postcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\models\\postcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\models\\friendship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\models\\friendship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\models\\conversationmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\models\\conversationmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\models\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\models\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|d:\\laptrinhweb\\social_network_2\\social_network_2\\social_network_server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{95FE38A4-5D39-4E93-962B-EFF7E8601630}|social_network_2\\social_network_server.csproj|solutionrelative:social_network_2\\social_network_server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "social_network_2\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:50:34.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "account_req.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\ModelBase\\account_req.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Models\\ModelBase\\account_req.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\ModelBase\\account_req.cs",
+              "RelativeToolTip": "social_network_2\\Models\\ModelBase\\account_req.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:39:23.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "social_network_server.csproj",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\social_network_server.csproj",
+              "RelativeDocumentMoniker": "social_network_2\\social_network_server.csproj",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\social_network_server.csproj",
+              "RelativeToolTip": "social_network_2\\social_network_server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-20T09:32:38.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "social_network_2\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:35:43.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "social_network_2.http",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\social_network_2.http",
+              "RelativeDocumentMoniker": "social_network_2\\social_network_2.http",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\social_network_2.http",
+              "RelativeToolTip": "social_network_2\\social_network_2.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-20T09:34:28.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "social_network_2\\WeatherForecast.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\WeatherForecast.cs",
+              "RelativeToolTip": "social_network_2\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:34:26.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Models\\Profile.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\Profile.cs",
+              "RelativeToolTip": "social_network_2\\Models\\Profile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:34:08.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PostShare.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\PostShare.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Models\\PostShare.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\PostShare.cs",
+              "RelativeToolTip": "social_network_2\\Models\\PostShare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:34:03.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PostMedium.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\PostMedium.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Models\\PostMedium.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\PostMedium.cs",
+              "RelativeToolTip": "social_network_2\\Models\\PostMedium.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:33:50.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PostComment.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\PostComment.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Models\\PostComment.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\PostComment.cs",
+              "RelativeToolTip": "social_network_2\\Models\\PostComment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:33:46.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Models\\Post.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\Post.cs",
+              "RelativeToolTip": "social_network_2\\Models\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:33:43.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Models\\Message.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\Message.cs",
+              "RelativeToolTip": "social_network_2\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:33:40.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Friendship.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\Friendship.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Models\\Friendship.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\Friendship.cs",
+              "RelativeToolTip": "social_network_2\\Models\\Friendship.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:33:37.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConversationMember.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\ConversationMember.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Models\\ConversationMember.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\ConversationMember.cs",
+              "RelativeToolTip": "social_network_2\\Models\\ConversationMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:33:28.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Conversation.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\Conversation.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Models\\Conversation.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\Conversation.cs",
+              "RelativeToolTip": "social_network_2\\Models\\Conversation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:33:21.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Models\\Account.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\Account.cs",
+              "RelativeToolTip": "social_network_2\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:33:15.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SocialNetworkContext.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\SocialNetworkContext.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Models\\SocialNetworkContext.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Models\\SocialNetworkContext.cs",
+              "RelativeToolTip": "social_network_2\\Models\\SocialNetworkContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:28:33.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\appsettings.json",
+              "RelativeDocumentMoniker": "social_network_2\\appsettings.json",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\appsettings.json",
+              "RelativeToolTip": "social_network_2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-20T09:28:19.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Program.cs",
+              "RelativeDocumentMoniker": "social_network_2\\Program.cs",
+              "ToolTip": "D:\\laptrinhweb\\social_network_2\\social_network_2\\Program.cs",
+              "RelativeToolTip": "social_network_2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:27:13.245Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 71,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 348,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "OJQHY6zjM7Pn3kd/2cHclFY7UcX3k8qT74HE8ZK6Cug=",
+  "Source": "social_network_server",
+  "BasePath": "_content/social_network_server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
