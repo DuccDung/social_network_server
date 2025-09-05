@@ -18,5 +18,7 @@
         public string? Address { get; set; }
 
         public string? Bio { get; set; }
+        public IFormFile? img_background { get; set; }
+        public IFormFile? img_avatar { get; set; }
     }
 }

@@ -28,36 +28,69 @@ namespace social_network_server.Controllers
         }
 
         [HttpPost("/api/create_profile")]
-        public async Task<IActionResult> CreateProfile([FromBody] profile_req profile)
+        [Consumes("multipart/form-data")]
+        [RequestSizeLimit(20 * 1024 * 1024)]
+        public async Task<IActionResult> CreateProfile([FromForm] profile_req profile) // <-- FromForm
         {
-            if (profile == null)
-            {
-                return BadRequest("Profile data is required.");
-            }
+            if (profile is null) return BadRequest("Profile data is required.");
 
             var existingProfile = await _context.Profiles
                 .FirstOrDefaultAsync(p => p.UserId == profile.UserId);
-            if (existingProfile != null)
-            {
+
+            if (existingProfile is not null)
                 return Ok(existingProfile);
+
+            if (profile.img_avatar is null || profile.img_avatar.Length == 0 ||
+                profile.img_background is null || profile.img_background.Length == 0)
+                return BadRequest("No file.");
+
+            var root = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
+            Directory.CreateDirectory(root);
+
+            // --- LƯU ẢNH AVATAR ---
+            var file_avatar = $"{Guid.NewGuid()}{Path.GetExtension(profile.img_avatar.FileName)}";
+            var path_avatar = Path.Combine(root, file_avatar);
+            await using (var stream = System.IO.File.Create(path_avatar))
+            {
+                await profile.img_avatar.CopyToAsync(stream);
             }
-            Profile newProfile = new Profile
+
+            // --- LƯU ẢNH BACKGROUND ---
+            var file_background = $"{Guid.NewGuid()}{Path.GetExtension(profile.img_background.FileName)}";
+            var path_background = Path.Combine(root, file_background); // <-- FIXED (không dùng file_avater)
+            await using (var stream = System.IO.File.Create(path_background))
+            {
+                await profile.img_background.CopyToAsync(stream);
+            }
+
+            var url_avatar = $"{Request.Scheme}://{Request.Host}/uploads/{file_avatar}";
+            var url_background = $"{Request.Scheme}://{Request.Host}/uploads/{file_background}";
+
+            var newProfile = new Profile
             {
                 UserId = profile.UserId,
                 FullName = profile.FullName,
                 Address = profile.Address,
-                AvatarUrl = profile.AvatarUrl,
+                AvatarUrl = url_avatar,        
                 Bio = profile.Bio,
-                CreateAt = DateTime.Now,
-                UpdateAt = DateTime.Now,
+                CreateAt = DateTime.UtcNow,
+                UpdateAt = DateTime.UtcNow,
                 DateOfBirth = profile.DateOfBirth,
                 Gender = profile.Gender,
                 Phone = profile.Phone
             };
 
+            var user = await _context.Accounts.FindAsync(profile.UserId);
+            if (user is null) return BadRequest("User does not exist.");
+
+            user.PhotoPath = url_background; 
+            _context.Accounts.Update(user);
+
             await _context.Profiles.AddAsync(newProfile);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetProfile), new { userId = profile.UserId }, profile);
+
+            return CreatedAtAction(nameof(GetProfile), new { userId = newProfile.UserId }, newProfile);
         }
+
     }
 }
