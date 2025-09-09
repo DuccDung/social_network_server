@@ -15,17 +15,17 @@ namespace social_network_server.Controllers
         {
             _context = context;
         }
-        [HttpGet("/api/login")]
-        public async Task<IActionResult> Login(string username, string password)
+        [HttpPost("/api/login")]
+        public async Task<IActionResult> Login(login_req req)
         {
             // Simulate a login process
             var auth = await _context.Accounts
-                .FirstOrDefaultAsync(a => a.Email == username && a.Password == password);
+                .FirstOrDefaultAsync(a => a.Email == req.Email && a.Password == req.Password);
             if (auth == null)
             {
-                return Unauthorized();
+                return BadRequest("password not correct!");
             }
-            return Ok(auth);
+            return Ok(auth.AccountId);
         }
         [HttpPost("/api/register")]
         public async Task<IActionResult> Register([FromBody] account_req req)

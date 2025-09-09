@@ -18,13 +18,28 @@ namespace social_network_server.Controllers
         [HttpGet("/api/get_profile/{userId}")]
         public async Task<IActionResult> GetProfile(int userId)
         {
-            var profile = await _context.Profiles
+            var profile = await _context.Profiles.Include(p => p.User)
                 .FirstOrDefaultAsync(p => p.UserId == userId);
             if (profile == null)
             {
                 return NotFound();
             }
-            return Ok(profile);
+            var response = new
+            {
+                FullName = profile.FullName,
+                UserId = profile.UserId,
+                Bio = profile.Bio,
+                ProfileId = profile.ProfileId,
+                Address = profile.Address,
+                AvatarUrl = profile.AvatarUrl,
+                CreateAt = profile.CreateAt,
+                DateOfBirth = profile.DateOfBirth,
+                Gender = profile.Gender,
+                Phone = profile.Phone,
+                UpdateAt = profile.UpdateAt,
+                BackgroundUrl = profile.User.PhotoPath
+            };
+            return Ok(response);
         }
 
         [HttpPost("/api/create_profile")]
@@ -89,7 +104,7 @@ namespace social_network_server.Controllers
             await _context.Profiles.AddAsync(newProfile);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetProfile), new { userId = newProfile.UserId }, newProfile);
+            return Ok(newProfile.UserId);
         }
 
     }

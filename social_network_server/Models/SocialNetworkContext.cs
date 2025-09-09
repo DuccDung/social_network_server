@@ -263,9 +263,9 @@ public partial class SocialNetworkContext : DbContext
                 .HasColumnName("media_url");
             entity.Property(e => e.PostId).HasColumnName("post_id");
 
-            entity.HasOne(d => d.Post).WithMany(p => p.PostMedia)
-                .HasForeignKey(d => d.PostId)
-                .HasConstraintName("FK_postmedia_post");
+            //entity.HasOne(d => d.Post).WithMany(p => p.PostMedia)
+            //    .HasForeignKey(d => d.PostId)
+            //    .HasConstraintName("FK_postmedia_post");
         });
 
         modelBuilder.Entity<PostShare>(entity =>

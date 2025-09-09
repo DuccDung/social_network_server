@@ -15,5 +15,5 @@ public partial class PostMedium
 
     public DateTime? CreateAt { get; set; }
 
-    public virtual Post Post { get; set; } = null!;
+    //public virtual Post Post { get; set; } = null!;
 }
